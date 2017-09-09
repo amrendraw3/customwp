@@ -24,5 +24,10 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <?php wp_footer(); ?>
+
+<script type="text/javascript">
+// $('#myCarousel').css('height', $(window).height()-($('#myCarousel').height()-570));
+
+</script>
 </body>
 </html>

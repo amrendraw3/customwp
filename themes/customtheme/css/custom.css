@@ -1,0 +1,145 @@
+img.navbar-brand.page-scroll {
+    width: 160px;
+    height: 60px;
+    padding: 5px;
+}
+
+.navbar-default{
+	background-color: transparent !important;
+}
+.affix{
+	background-color: rgba(255, 255, 255, 0.9) !important;
+
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 6px;
+}
+.navbar-default{
+	border-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #000 !important;
+}
+
+.navbar-default.affix{
+	box-shadow: 0px 0 26px -10px #000;
+}
+
+.banner-content {
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+}
+a.it-button {
+    border: 1px solid;
+    padding: 9px 40px;
+}
+a.it-button:hover{
+	text-decoration: none;
+	color: red;
+
+}
+.it-button-main {
+    margin-top: 49px;
+}
+
+.col-md-6.left-side h1 {
+    color: #7481c1;
+    font-weight: 600;
+}
+
+.col-md-6.left-side h5 {
+    color: #6b6b6b;
+    font-size: 20px;
+}
+
+.inner-docx {
+    border: 2px solid;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: -82px;
+    background: white;
+    color: darkgray;
+}
+
+.inner-docx a {
+    color: gray;
+}
+.inner-docx a:hover {
+	color: black;
+
+}
+
+.inner-docx .fa {
+    font-size: 50px;
+    padding-top: 11px;
+}
+.inner-docx h4 {
+    font-weight: 600;
+}
+
+.text-center.about-us p {
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.it-inner-ser {
+    border: 1px solid;
+    color: gray;
+}
+
+.margin-15 {
+    margin-top: 30px;
+}
+
+.it-inner-ser h3 {
+    position: absolute;
+    top: -36px;
+    background: #337ab7;
+    border: 1px solid;
+    padding: 4px 14px;
+    color: white;
+}
+.it-inner-ser {
+    padding: 80px 31px;
+}
+.it-inner-ser a {
+    border: 1px solid;
+    padding: 4px 17px;
+    position: absolute;
+    bottom: 13px;
+}
+.it-inner-ser a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.col-md-6.whyus-li li img {
+    width: 19px;
+    margin-right: 12PX;
+}
+.col-md-6.whyus-li li {
+    list-style-type: none;
+}
+.col-md-6.whyus-li {
+    font-size: 21px;
+    line-height: 40px;
+}
+
+section#whyus {
+    background-image: url(../../../../wp-content/uploads/2017/09/images.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #e6e6e6;
+}
+section#services {
+    background-image: url(../../../../wp-content/uploads/2017/09/bg-static-1.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}

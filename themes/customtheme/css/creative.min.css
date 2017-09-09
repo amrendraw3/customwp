@@ -130,13 +130,13 @@ aside {
 
 .navbar-default .nav>li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #F05F40!important;
-    background-color: transparent
+    color: #f6f8ff!important;
+    background-color: rgba(0, 107, 212, 0.76);
 }
 
 .navbar-default .nav>li.active>a:focus:hover,
 .navbar-default .nav>li.active>a:hover {
-    background-color: transparent
+    background-color: rgba(0, 107, 212, 0.76);
 }
 
 @media (min-width:768px) {
@@ -157,7 +157,7 @@ aside {
     }
     .navbar-default .nav>li>a:focus:hover,
     .navbar-default .nav>li>a:hover {
-        color: #fff
+        color: #2196F3
     }
     .navbar-default.affix {
         background-color: #fff;
@@ -177,7 +177,7 @@ aside {
     }
     .navbar-default.affix .nav>li>a:focus:hover,
     .navbar-default.affix .nav>li>a:hover {
-        color: #F05F40
+        color: #2196F3
     }
 }
 
@@ -273,7 +273,7 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, .9);
+    background: rgba(58, 116, 204, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
