@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>W3villa</title>
+  <title>IT Project Consultants</title>
 
   <?php wp_head(); ?>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="">Home</a>
+                        <a class="page-scroll" href="#page-top">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About us</a>

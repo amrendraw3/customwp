@@ -1,0 +1,227 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ 
+ 
+
+.left_side {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 68%;
+}
+.left_side_input {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.right_side {
+    display: block;
+    float: right;
+    overflow: hidden;
+    width: 30%;
+}
+.inside > div {
+    display: block;
+    overflow: hidden;
+}
+#meta_inner > div {
+    display: block;
+    overflow: hidden;
+}
+.team_manager_fr {
+  border: 1px solid #ddd;
+  display: block;
+  margin-bottom: 8px;
+  overflow: hidden;
+  padding: 5px;
+}
+.team_manager_fr:hover {
+  border-bottom: 1px solid #32a5dc;
+  cursor: move;
+}
+.single_items {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 50%;
+}
+.single_items_inp {
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 31%;
+}
+.left_side div.single_description {
+  margin-bottom: 10px;
+}
+.client_name {
+  padding: 3px;
+  text-align: center;
+}
+.client_thumb {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    width: 247px;
+}
+.client_thumb > img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+	transition: all 0.6s ease-in 0s;
+}
+.client_thumb img:hover {
+  opacity: 0.6;
+  transition: all 0.6s ease-in-out 0s;
+}
+
+
+
+
+/*  Team manager free admin support */
+
+
+div.wrap h2.team-manager-admin-support {
+  padding-bottom: 16px;
+}
+div.wrap .team-manager-admin-area{
+  padding: 25px;
+}
+.team-manager-free-shortcodes {
+  background: #32a5dc none repeat scroll 0 0;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.team-manager-free-shortcodes > h2 {
+  color: #fff;
+  display: block;
+  font-size: 19px !important;
+  overflow: hidden;
+}
+.team-manager-free-shortcodes > textarea {
+  padding: 5px;
+  text-align: center;
+}
+.team-manager-free-shortcodes > p {
+  color: #fff;
+  font-size: 15px;
+}
+
+
+
+
+/* Social Icons CSS */
+.social_single_items .fa.fa-facebook {
+  background: #3b5998 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  height: 21px;
+  padding-top: 6px;
+  text-align: center;
+  width: 20px;
+}
+.social_single_items .fa.fa-twitter {
+  background: #00ABDC none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  height: 21px;
+  padding-top: 6px;
+  text-align: center;
+  width: 20px;
+}
+.social_single_items .fa.fa-dribbble {
+  background: #FA4086 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  height: 21px;
+  padding-top: 6px;
+  text-align: center;
+  width: 20px;
+}
+.social_single_items {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 13%;
+}
+
+
+
+/* Tabs CSS  */
+
+.tabs-menu {
+  display: block;
+  overflow: hidden;
+}
+.tabs-menu li {
+  background-color: #32a5dc;
+  border-left: 1px solid #d4d4d1;
+  border-right: 1px solid #d4d4d1;
+  border-top: 1px solid #d4d4d1;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.tabs-menu li.current {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 5;
+}
+
+.tabs-menu li a {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.tabs-menu .current a {
+    color: #2e7da3;
+}
+.tab {
+  background-color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+#tab-1 {
+ display: block;   
+}
+.tabs-menu li a:focus {
+  box-shadow: none;
+  outline: medium none;
+}
+.tabs-menu li a i {
+  margin-right: 7px;
+}
+
+/* Table Design */
+.tab-content table.form-table tr {
+  border-top: 1px solid #ececec;
+}
+.tab-content table.form-table tr:hover {
+  background: #efefef none repeat scroll 0 0;
+  border-bottom: 1px solid #32a5dc;
+  transition: all 0.5s ease 0s;
+}
+.team_manager_hint {
+  display: block;
+  font-size: 11px;
+  margin-top: 15px;
+  overflow: hidden;
+}

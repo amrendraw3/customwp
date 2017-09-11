@@ -55,6 +55,7 @@ a.it-button:hover{
 .col-md-6.left-side h5 {
     color: #6b6b6b;
     font-size: 20px;
+    line-height: 42px;
 }
 
 .inner-docx {
@@ -91,7 +92,7 @@ a.it-button:hover{
 
 .it-inner-ser {
     border: 1px solid;
-    color: gray;
+    color: #337ab7;
 }
 
 .margin-15 {
@@ -105,6 +106,7 @@ a.it-button:hover{
     border: 1px solid;
     padding: 4px 14px;
     color: white;
+    font-size: 15px;
 }
 .it-inner-ser {
     padding: 80px 31px;
@@ -119,17 +121,21 @@ a.it-button:hover{
     text-decoration: none;
     color: red;
 }
+.it-inner-ser p {
+    color: #4c6071 !important;
+}
 
-.col-md-6.whyus-li li img {
+.col-md-12.whyus-li li img {
     width: 19px;
     margin-right: 12PX;
 }
-.col-md-6.whyus-li li {
+.col-md-12.whyus-li li {
     list-style-type: none;
 }
-.col-md-6.whyus-li {
-    font-size: 21px;
+.col-md-12.whyus-li {
+    font-size: 16px;
     line-height: 40px;
+    margin-top: 40px;
 }
 
 section#whyus {
@@ -142,4 +148,38 @@ section#services {
     background-image: url(../../../../wp-content/uploads/2017/09/bg-static-1.jpg);
     background-attachment: fixed;
     background-size: contain;
+}
+.team-inner {
+    text-align: center;
+    background: #ececec;
+    padding: 63px 0px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.team-inner h1 {
+    color: #337ab7;
+}
+.team-inner p {
+    color: dimgray;
+}
+.inner-testi img {
+    width: 100px;
+    margin-top: 20px;
+}
+.inner-testi p {
+    font-size: 15px;
+    padding: 20px 0px;
+}
+section#testimonial {
+    background-image: url(../../../../wp-content/uploads/2017/09/SplitShire-8098-1800x1200.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ol.carousel-indicators {
+    top: 150px;
+}
+
+.inner-testi h4 {
+    text-align: right;
 }

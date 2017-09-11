@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">amrendra@w3villa.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">tarun.kumar@w3villa.com</a></p>
                 </div>
             </div>
         </div>
