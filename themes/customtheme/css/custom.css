@@ -26,7 +26,272 @@ ul.nav.navbar-nav.navbar-right {
 	box-shadow: 0px 0 26px -10px #000;
 }
 
-.banner-content {
+
+/*shopchain css*/
+
+
+section.banner-slider {
+    padding: 0 !important;
+}
+
+img.navbar-brand.page-scroll {
+    width: 220px !important;
+}
+
+.home-banner img{
+  height: 100vh;
+  width: 100%;
+}
+
+.container.slider-text {
+    position: absolute;
+    top: 24%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+}
+.slider-text p {
+    padding: 0 263px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 44px 0;
+}
+.slider-text a {
+    text-decoration: none;
+    border: 1px solid #f5950f;
+    padding: 13px 52px;
+    color: #f5950f;
+    font-weight: 600;
+}
+.slider-text a:hover {
+    text-decoration: none;
+    background: #f5950f;
+    color: white;
+}
+.home-banner {
+    position: relative;
+}
+.col-md-2.owl-left-side h5 {
+    line-height: 13px;
+    font-size: 12px;
+}
+.slide-bottom-text .fa {
+    font-size: 50px;
+}
+.col-md-2.owl-left-side {
+    border-right: 3px solid;
+}
+.slide-bottom-text {
+    margin-top: 9%;
+}
+
+
+section.about {
+    background: #f5950f;
+    color: white;
+    text-align: center;
+}
+.about-content h2 {
+    margin-bottom: 50px;
+}
+.about-content p {
+    font-size: 22px;
+    padding: 0 62px;
+}
+
+
+
+/*service section*/
+
+.service-item img {
+    width: 133px;
+}
+.service-item h3 {
+    margin: 0;
+}
+
+.service-item {
+    margin-bottom: 33px;
+}
+
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1{
+    font-size: 30px;
+}
+
+section.service {
+    background-image: url(../../../../wp-content/uploads/2017/09/food-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.transparent-layer {
+    background: rgba(78, 75, 75, 0.47);
+}
+.pro-section p {
+    color: darkgray;
+}
+.service-item {
+    margin-bottom: 33px;
+    background: rgba(255, 188, 93, 0.65);
+    padding: 7px;
+}
+.service-item p {
+    color: #5f584d;
+    padding-top: 4px: 
+}
+.service-item h3 {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 600;
+}
+.col-md-8.ser-margin {
+    margin-left: -30px;
+}
+
+.pro-img img {
+    width: 100%;
+}
+.row.pro-main {
+    margin-bottom: 90px;
+}
+
+
+
+/*start team section*/
+
+
+section.team {
+    background: #f5950f;
+    color: white;
+    text-align: center;
+}
+.col-md-4.team-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+/*end of team section*/
+
+
+
+
+
+
+/*start contact section*/
+
+.contact-margin{
+    margin-bottom: 20px;
+}
+
+.contact-top{
+    margin-top: 20px;    
+}
+
+section.contact {
+    background: black;
+}
+
+.get-intouch input, section.contact textarea{
+    background: black;
+    border: none;
+    border-bottom: 2px solid #545454;
+}
+
+.contact button{
+    background: black;
+    border-color: #545454
+}
+.contact button.form-control:hover {
+    border-color: #f5950f;
+    color: #f5950f;
+}
+.contact input.form-control, .contact textarea.form-control {
+    color: white;
+}{
+    color: white;
+}
+
+/*end contact section*/
+
+/*
+=================================================================
+Start Footer 
+=================================================================*/
+footer {
+    background: #00BFDF;
+    color: #fff;
+    font-size: 13px;
+}
+footer {
+    padding: 20px 0;
+}
+footer h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+footer p {
+    font-size: 13px;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ul {
+    padding: 0;
+}
+.footer-social li {
+    display: inline;
+    padding: 0 6px;
+    font-size: 15px;
+}
+
+footer ul li a {
+    color: white;
+}
+.footer-social a {
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+.copyright {
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.banner-content {
     position: absolute;
     top: 15%;
     z-index: 999;
@@ -183,3 +448,5 @@ ol.carousel-indicators {
 .inner-testi h4 {
     text-align: right;
 }
+
+*/
